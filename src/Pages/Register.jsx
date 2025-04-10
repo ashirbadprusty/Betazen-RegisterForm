@@ -286,7 +286,6 @@ const Register = () => {
                 xs={12}
                 sx={{ textAlign: "center", paddingBottom: "1vh" }}
               >
-                <Typography variant="h6">Upload Profile Photo</Typography>
                 <IconButton onClick={openCamera}>
                   <Avatar
                     src={
@@ -304,6 +303,8 @@ const Register = () => {
                     {!formData.profilePhoto && <CameraAltIcon />}
                   </Avatar>
                 </IconButton>
+                <Typography variant="h6" color="#333159" fontWeight={600} fontSize="16px">Upload Profile Photo</Typography>
+
               </Grid>
 
               {/* Two Column Layout */}
